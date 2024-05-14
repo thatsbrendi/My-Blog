@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    border-bottom: 1px solid #b3aea8;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+nav {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin: auto;
+}
+
+nav ul {
+    position: relative;
+    display: flex;
+}
+
+.nav-menu {
+    gap: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #353535;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+    color: #e07a5f;
+}
+
+a.active {
+    text-decoration: underline;
+    color: #e07a5f;
+}
+
+span {
+    font-weight: 600;
+    color: #e07a5f;
+}
+
+.fa-book {
+    margin-right: 10px;
+    color: #e07a5f;
+}
+
+
+/* Here Start Container Gallery */
+.heading-center {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 960px;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1rem 0 4rem 0;
+    gap: 30px;
+}
+
+.container img {
+    width: 350px;
+    height: 320px;
+    gap: 30px;
+    object-fit: cover;
+}
+
+/* Here Start BG-5  */
+.bg-5 {
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    padding-top: 80px;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #e07a5f;
+    color: #fff;
+}
+
+.heading-1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.paragraph-center {
+    line-height: 25px;
+}
+
+button {
+    padding: 12px 35px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    color: #e07a5f;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+/* Footer */
+.footer {
+    background: #fff;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.footer .row {
+    width: 100%;
+    font-size: 15px;
+    line-height: 50px;
+    color: #111;
+}
+
+.row a {
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #e07a5f;
+}
+
+.row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 40px 10px;
+}
